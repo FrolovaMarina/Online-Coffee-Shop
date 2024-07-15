@@ -1,0 +1,98 @@
+@media (max-width: 375px) {
+    html{ width: 1000%; }
+
+    .main {
+        min-width: 350px;
+    }
+    
+    section.info{ margin-top: -110px; max-height: 2000px;}
+    section.review{ margin-top: 125px; height: 2100px;}
+    section.order{ margin-top: -130px; height: 700px;}
+    section.customers{ margin-top: 130px; }
+    
+    section.conclusion{ margin-bottom: 90px; height: 1650;}
+
+    footer div.column1 {margin-top: 30px; }
+    footer div.column2 p {margin-top: -30%; padding-left: 130px;}
+
+    section.info div.column1, div.column2{ margin-bottom: 350px; flex-direction: column; display: block; }
+
+    section.review div.column1, div.column2, div.column3{ margin-bottom: 35px; flex-direction: column; display: block; }
+    section.review div.column1{margin-bottom: 30px; }
+    section.review div.column2{margin-top: 30px; }
+    section.review div.column3{margin-top: 30px; }
+
+    section.order div.column1, div.column2{	flex-direction: column; display: block; }
+    section.order div.column2{ padding-left: -30px; }
+
+    section.customers div.column1, div.column2{ flex-direction: column; display: inline-block;  }
+
+    section.conclusion div.column1, div.column2{ flex-direction: column; display: block; }
+
+    footer {flex-direction: column; display: inline-block; }
+
+    /*Навигация 2*/ 
+    div.headlayout {
+        white-space: pre-wrap;
+    }
+
+    section.info {
+        height: 1590px;
+    }
+
+    p.ratenote{
+        margin-top: 100%; 
+        margin-left: -12%;
+    }
+ 
+    /*СЕКЦИЯ 2*/ 
+    /*3 колонки review*/
+    section.review div.column1, div.column2, div.column3{
+        white-space: normal;	
+        display: block;
+        width: 29.5%;     
+    }
+
+    /*СЕКЦИЯ 3*/ 
+    /*2 колонки order*/
+    section.order div.column1, div.column2{
+        margin-top: 10%; 
+    }
+
+    section.order div.column1 {
+        margin-left: 1%;
+        float: left;
+    }
+
+    section.order div.column2 {
+        margin-right: 20%;
+        float: right;
+    }
+
+    /*СЕКЦИЯ 4*/
+    section.customers div.column1, div.column2{
+    white-space: normal;	
+	display: inline-block;
+	width: 29.5%;
+	vertical-align: top;  
+    }
+
+    .swiper-button-prev{
+        margin-left: -0.5%;
+    }
+
+    .swiper-button-next{
+        margin-right: 21.5%;  
+    }
+
+    section.customers div.column1 {
+        margin-left: 3.2%;
+        margin-top: 2%; 
+    }
+
+    section.customers div.column2{
+        margin-left: 7%;
+        margin-top: 2%; 
+    } 
+}
+

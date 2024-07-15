@@ -1,0 +1,796 @@
+header, body{
+    background-color: #FFFFFF; 
+    scroll-behavior: smooth; 
+    max-width: 1440px;     
+}
+
+@font-face {
+    font-family: "Jost-Regular";
+    src: url("../css/fonts/Jost-Regular.woff2") format("woff2"); 
+    /*font-weight: bold;*/
+}
+
+@font-face {
+    font-family: "Jost-Bold";
+    src: url("../css/fonts/Jost-Bold.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Jost-ExtraBold";
+    src: url("../css/fonts/Jost-ExtraBold.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Jost-SemiBold";
+    src: url("../css/fonts/Jost-SemiBold.woff2") format("woff2"); 
+}
+
+/*@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost.ttf") format("truetype"); 
+    font-weight: normal;
+}*/
+
+/*СЕКЦИЯ 1*/
+section.info, header{
+    background-color: #EEEFF1; 
+    max-height: 1046px;
+}
+
+section.info {
+    height: 846px;
+}
+
+/*Стиль навигации*/
+nav.header__nav a{
+    color:#1B1B1D; 
+    font-family: "Jost-SemiBold", sans-serif; 
+    font-weight: 500; 
+    font-size: 15px; 
+    text-decoration: none;
+    line-height: 21.68px;
+    padding-right: 30px;
+    
+    /*float: right;
+    flex-grow: 1;
+    font-style: normal; */
+}
+
+nav.header__nav a:hover{
+    color:purple;
+}
+
+/*Область header*/
+div.headlayout {
+   /* width: 73px;
+    height: 22px;*/
+    padding-inline: 100px;
+    width: 1500px;
+    white-space: nowrap;
+}
+
+div.logoimage{
+    margin-top: 1%;
+}
+
+/*Иконка + навигация*/
+div.headlayout div.logoimage, nav.header__nav{
+    /*  margin-top: 2%;*/
+    white-space: normal;	
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;  
+}
+
+nav.header__nav{
+    /*padding-inline: 10px;*/
+    margin-top: 2%;
+}
+
+nav.header__nav img.header__circle{
+    margin-top: -12%;
+    margin-left: 80%;
+}
+
+/*Кнопка тележки*/
+nav.header__nav button.buy {
+    background: transparent;
+    border: none !important;
+    margin-top: -24.8%;
+    margin-left: 93.3%;
+}
+
+/*Кнопка подарочных сертификатов*/
+nav.header__nav button.giftvouchers {
+    background: #1B1B1D;
+    border: none;
+    margin-top: -28%;
+    margin-left: 107%;
+    border-radius: 63px;
+    width: 210px; 
+    /*height: 26px;*/
+}
+
+nav.header__nav button.giftvouchers:active {
+    background-color:rgb(138, 133, 127); 
+}
+
+/*Надпись в кнопке*/
+button.giftvouchers p{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: "Jost-Regular", sans-serif; 
+    line-height: 26px;
+    font-weight: 500; 
+}
+
+/*Заголовок Alowishus Delicious Coffee*/
+h1.delicious{
+    color:#1B1B1D; 
+    font-family: "Jost-ExtraBold", sans-serif; 
+    font-weight: 800; 
+    font-size: 124px; 
+    line-height: 140px;
+}
+
+/*Первая секция*/
+section.info{
+    white-space: nowrap;
+    padding-right: 40px;
+}
+
+/*Заголовок + картинка с кофе*/
+section.info div.column1, div.column2{
+    white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;  
+}
+
+/*Секция с заголовком*/
+section.info div.column1{
+    margin-left: 8%;
+    width: 597px; 
+    height: 420px;
+    position: relative; 
+    margin-top: -4%;
+}
+
+/*Надпись под заголовком*/
+section.info div.column1 p.note{
+    width: 530px; 
+    height: 70px;
+    color:#64646A; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 34.68px;
+    margin-top: -10%;
+}
+
+/*Кнопка загрузки приложения*/
+div.column1 button.download {
+    background: #1B1B1D;
+    border: none;
+    margin-top: 5%;
+    border-radius: 97px;
+    width: 225px; 
+    /*height: 26px;*/
+}
+
+div.column1 button.download:active {
+    background-color:rgb(138, 133, 127); 
+}
+
+/*Надпись в кнопке*/
+button.download p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: "Jost-Regular", sans-serif; 
+    line-height: 30px;
+    font-weight: 500; 
+}
+
+/*Ссылка на покупку кофе*/
+section.info div.column1 a.shop__elem{
+    color:#1B1B1D; 
+    font-family: "Jost-SemiBold", sans-serif; 
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 26.01px;
+    margin-left: 25px;
+    text-underline-position: under;
+}
+
+section.info div.column1 a.shop__elem:hover{
+    color:purple;
+}
+
+/*Секция с картинкой стакана кофе*/
+section.info div.column2 {
+    white-space: nowrap;
+}
+
+/*Секция со стаканом кофе*/
+section.info div.column2{
+    margin-top: 2%;
+    margin-left: -2%;
+    width: 680.25px; 
+    height: 712px;
+}
+
+/*Стакан кофе + cafe логотип*/
+div.column2 img.main__logo, img.main__secondlogo{
+    white-space: normal;	
+	display: inline-block;
+	vertical-align: top;  
+}
+
+/*Логотип cafe*/
+div.column2 img.main__secondlogo{
+    margin-top: 4.2%;
+    margin-left: -26.8%;
+    width: 139.94px; 
+    height: 113px;
+}
+
+/*Эллипс*/
+div.column2 img.main__thirdlogo{
+    margin-bottom: 6.9%;
+    margin-left: -87.5%;
+    /*clip-path: polygon(); */
+}
+
+/*Эллипс 1*/
+section.info div.column2 svg.el1{
+    margin-top: 25%;
+    margin-left: -68.5%;
+}
+
+/*Эллипс 2*/
+section.info div.column2 svg.el2{
+    margin-bottom: 4%;
+    margin-left: -70%;
+}
+
+/*Надпись под рейтингом*/
+p.ratenote{
+    width: 232px; 
+    height: 52px;
+    color:#64646A; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 19px; 
+    line-height: 26px;
+    margin-top: -36%; 
+    margin-left: 105.2%;
+}
+
+/*Звёзды*/
+div.rate{
+    margin-top: -44%;
+    margin-left: 8%;
+}
+
+/*СЕКЦИЯ 2*/ 
+section.review{
+    background-color: #FFFFFF; 
+    height: 900px;
+}
+
+/*Заголовок Explore Our Alowishus*/
+h1.explore{
+    text-align: center; 
+    color:#1B1B1D; 
+    font-family: "Jost-ExtraBold", sans-serif; 
+    font-weight: 800; 
+    font-size: 62px; 
+    line-height: 140px;
+    margin-top: 7%;
+}
+
+/*Надпись под заголовком*/
+p.explorenote{
+    text-align: center; 
+    max-width: 604px; 
+    height: 70px;
+    color:#64646A; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 34.68px; 
+    margin-top: -4%; 
+    margin-left: 29%;
+}
+
+/*3 колонки review*/
+section.review div.column1, div.column2, div.column3{
+    white-space: normal;	
+	display: inline-block;
+	width: 29.5%;
+	vertical-align: top;  
+    margin-top: 2%; 
+}
+
+div.inside{
+    margin-top: -145%; 
+    margin-left: 25%;
+}
+
+/*Свойства картинок*/
+section.review img.icon{
+    margin-left: 21%;
+    margin-top: 12%; 
+}
+
+div.column2 img.icon{
+    margin-left: 23%;
+    margin-top: 11.5%; 
+}
+
+div.column3 img.icon{
+    margin-left: 23%;
+    margin-top: 11.7%;
+}
+
+/*Свойства заголовков*/
+section.review h2{
+    width: 225px; 
+    height: 52px;
+    color:#1B1B1D; 
+    font-family: "Jost-Bold", sans-serif; 
+    font-weight: 600; 
+    font-size: 36px; 
+    line-height: 52.02px; 
+}
+
+section.review div.column2 div.inside h2.food{
+    margin-top: 12.7%; 
+}
+
+/*Свойства записей под заголовками*/
+section.review p.iconnote{
+    max-width: 316px; 
+    height: 70px;
+    color:#64646A; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 34.68px; 
+    margin-top: -5%; 
+}
+
+/*Свойства кнопок*/
+button.iconbutton {
+    background: #1B1B1D;
+    border: none;
+    margin-top: 15%;
+    border-radius: 126px;
+    width: 225.39px; 
+    height: 60px;
+    margin-left: 11%;
+}
+
+button.iconbutton:active{
+    background-color:rgb(138, 133, 127); 
+}
+
+/*Надписи в кнопках*/
+button.iconbutton p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: "Jost-Regular", sans-serif; 
+    line-height: 30px;
+    font-weight: 500; 
+    margin-top: 7%; 
+}
+
+/*СЕКЦИЯ 3*/ 
+section.order{
+    background-color: #FFFFFF; 
+    height: 650px;
+}
+
+/*2 колонки order*/
+section.order div.column1, div.column2{
+    white-space: normal;	
+	display: inline-block;
+	width: 29.5%;
+	vertical-align: top;  
+    margin-top: 2%; 
+}
+
+/*Заголовок заказа*/
+section.order h1{
+    width: 530px; 
+    height: 140px;
+    color:#1B1B1D; 
+    font-family: "Jost-ExtraBold", sans-serif; 
+    font-weight: 800; 
+    font-size: 64px; 
+    line-height: 70px; 
+}
+
+/*Описание*/
+section.order p.latinote{
+    width: 512px; 
+    height: 140px;
+    color:#64646A; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 34.68px; 
+    margin-top: -5%; 
+}
+
+/*Свойства кнопок*/
+button.order {
+    background: #1B1B1D;
+    border: none;
+    margin-top: 15%;
+    border-radius: 97px;
+    width: 191px; 
+    height: 70px;
+    margin-top: 8%;
+}
+
+button.order:active{
+    background-color:rgb(138, 133, 127); 
+}
+
+/*Надписи в кнопке*/
+button.order p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: "Jost-Regular", sans-serif; 
+    line-height: 30px;
+    font-weight: 500; 
+}
+
+section.order div.column1 {
+    margin-left: 3.5%;
+}
+
+section.order div.column2 {
+    margin-left: 20%;
+}
+
+/*СЕКЦИЯ 4*/ 
+section.customers{
+    background-color: #FFFFFF; 
+    height: 999px;
+}
+
+/*Заголовок*/
+section.customers h1{
+    text-align: center; 
+    width: 494px; 
+    height: 140px;
+    color:#1B1B1D; 
+    font-family: "Jost-ExtraBold", sans-serif; 
+    font-weight: 800; 
+    font-size: 64px; 
+    line-height: 70px; 
+    margin-left: 32%;
+    margin-bottom: -0.5%; 
+}
+
+div.custom{
+    margin-left: 39%;
+}
+
+/*Оценка*/
+div.custom h2{
+    max-width: 65px; 
+    height: 40px;
+    color:#1B1B1D; 
+    font-family: "Jost-Bold", sans-serif; 
+    font-weight: 600; 
+    font-size: 40px; 
+    line-height: 40px; 
+}
+
+/*Примечание*/
+div.custom p{
+    width: 211px; 
+    height: 28px;
+    color:#64646A; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 28px; 
+    margin-left: 9%;
+    margin-top: -5.5%; 
+}
+
+/*Рейтинг*/
+div.stars{
+    margin-top: 5%; 
+    margin-bottom: -5.5%; 
+    margin-left: 9%;
+}
+
+section.customers div.column1, div.column2{
+    white-space: normal;	
+	display: inline-block;
+	width: 29.5%;
+	vertical-align: top;  
+
+}
+
+
+.swiper-button-prev{
+    margin-left: 7.5%;
+}
+
+.swiper-button-next{
+    margin-right: 8%;  
+}
+
+
+section.customers div.column1 {
+    margin-left: 14.2%;
+    margin-top: 2%; 
+}
+
+section.customers div.column1 img.background{
+    margin-top: -9.5%; 
+    margin-bottom: -173%; 
+    margin-left: -14.2%;
+}
+
+section.customers div.column2{
+    margin-left: 7%;
+}
+
+section.customers div.column2 img.background{
+    margin-top: -9.5%; 
+    margin-bottom: -173%; 
+    margin-left: -14.2%;
+}
+
+/*Подзаголовки*/
+h2.who{
+    width: 230px; 
+    height: 30px;
+    color:#1B1B1D; 
+    font-family: "Jost-SemiBold", sans-serif; 
+    font-weight: 600; 
+    font-size: 24px; 
+    line-height: 30px; 
+    margin-left: 8%;
+    margin-top: 8%; 
+}
+
+section.customers div.BS_stars{
+    margin-left: 63%;
+    margin-top: -10.5%; 
+}
+
+section.customers div.IW_stars{
+    margin-left: 43.5%;
+    margin-top: -10.5%; 
+}
+
+/*Описание*/
+p.who{
+    width: 390px; 
+    height: 180px;
+    color:#1B1B1D; 
+    font-family: "Jost-Regular", serif; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 30px; 
+    margin-left: 8%;
+    margin-top: 6%; 
+}
+
+/*СЕКЦИЯ 5*/ 
+section.conclusion{
+    background-color: #FFFFFF; 
+    height: 990px;
+}
+
+section.conclusion div.column1, div.column2{
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;  
+    
+}
+
+section.conclusion div.column1{ 
+    margin-left: 7%;
+}
+
+section.conclusion div.column2{ 
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+/*Логотип*/
+section.conclusion div.column1 img{  
+    margin-bottom: 3%;
+    margin-top: 18%;
+}
+
+/*Текст под логотипом*/
+section.conclusion div.column1 p{
+    width: 558px; 
+    height: 160px;
+    color: #6a646a; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 30px; 
+    line-height: 40px; 
+    
+}
+
+/*Подзаголовки*/
+section.conclusion h2{   
+    color:#1B1B1D; 
+    font-family: "Jost-ExtraBold", sans-serif; 
+    font-weight: 800; 
+    font-size: 40px; 
+    line-height: 50px;  
+    
+}
+
+/*Подзаголовок слева*/
+section.conclusion div.column1 h2{
+    width: 325px; 
+    height: 50px;
+    margin-top: 24%;
+    
+}
+
+div.arrow{
+    margin-top: -19%;
+}
+
+/*Ссылка поиска*/
+div.arrow a{
+    color:#1B1B1D; 
+    font-family: "Jost-Bold", sans-serif; 
+    font-weight: 600; 
+    font-size: 18px; 
+    text-decoration: none;
+    line-height: 30px;
+}
+
+div.arrow a:hover{
+    color:purple;
+}
+
+/*Стрелка*/
+section.conclusion div.column1 img.arrow{
+    margin-top: -7.5%;
+    margin-left: 45%;
+}
+
+/*Контакты*/
+section.conclusion div.column2 p{
+    width: 271px; 
+    height: 44px;
+    color: #6a646a; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 30px; 
+    line-height: 44px; 
+    margin-left: 18%;
+    margin-top: -21.8%;
+}
+
+img.circlel{
+    margin-left: -8%;
+}
+
+a.contacts {
+    margin-top: 10.8%;
+}
+
+a.contacts:hover {
+    border: 1px solid transparent;
+}
+
+img.iconl{ margin-bottom: 13%; margin-left: -18.4%; }
+
+/*Вид поля ввода*/
+img.email{ margin-left: -8%; margin-top: -3%; }
+
+input[type="email"]{
+    margin-top: -26%;
+    margin-left: -1%;
+    border-radius: 65px;
+    width: 413px; 
+    height: 70px;
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 500; 
+    font-size: 22px; 
+    line-height: 30px; 
+    padding: 0.5rem 1.75rem;
+    border: none;
+}
+
+img.line{ margin-left: 5.5%; margin-top: 6%; }
+
+/*Надпись в поле*/
+section.conclusion div.column2 p.email{ 
+    width: 70px; 
+    height: 30px;
+    color: #6a646a; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 30px; 
+    margin-left: 8%;
+    margin-top: -21%;
+}
+
+/*Кнопка подписки*/
+button.subscribe {
+    background: #1B1B1D;
+    border: none;
+    border-radius: 97px;
+    width: 173px; 
+    height: 70px;
+    margin-left: -2%;
+    
+}
+
+button.subscribe:active {
+    background-color:rgb(138, 133, 127);
+}
+
+/*Запись на кнопке*/
+section.conclusion div.column2 button.subscribe p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: "Jost-Regular", sans-serif; 
+    line-height: 30px;
+    font-weight: 500; 
+    margin-left: -33%;
+    margin-top: 12%;
+}
+
+/*FOOTER*/
+footer.footer{
+    background-color: #FFFFFF; 
+    height: 100px;
+}
+
+footer div.column1, div.column2{
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top; 
+}
+
+/*Шрифт*/
+footer p{
+    width: 410px; 
+    height: 30px;
+    color: #6a646a; 
+    font-family: "Jost-Regular", sans-serif; 
+    font-weight: 500; 
+    font-size: 22px; 
+    line-height: 30px; 
+    margin-left: 23%;
+}
+
+footer div.column1 p{
+    margin-top: -8%;
+}
+
+footer div.column2 p{
+    margin-top: -15%;
+    margin-left: 139%;
+}
+
+/*Alowishus Delicious*/
+footer span{
+    color: #1B1B1D; 
+    font-family: "Jost-SemiBold", sans-serif; 
+    margin-left: 2%;
+}
+
